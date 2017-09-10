@@ -29,6 +29,10 @@
 		34AA66041BDD448B00467912 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AA66031BDD448B00467912 /* CoreTelephony.framework */; };
 		34FD5D2B1D55F7AE00F328F9 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34FD5D2C1D55F7AE00F328F9 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A73DFA01F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73DF9F1F5CCDA400826C98 /* PhoneNumberFormatter.swift */; };
+		5A73DFA11F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73DF9F1F5CCDA400826C98 /* PhoneNumberFormatter.swift */; };
+		5A73DFA21F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73DF9F1F5CCDA400826C98 /* PhoneNumberFormatter.swift */; };
+		5A73DFA31F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A73DF9F1F5CCDA400826C98 /* PhoneNumberFormatter.swift */; };
 		C6B53DA51D944F8000E607DD /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2EF381D62BC3200052D44 /* NSRegularExpression+Swift.swift */; };
 		C6B53DA61D944F8000E607DD /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2EF381D62BC3200052D44 /* NSRegularExpression+Swift.swift */; };
 		C6B53DA71D94508400E607DD /* NSRegularExpression+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C2EF381D62BC3200052D44 /* NSRegularExpression+Swift.swift */; };
@@ -103,6 +107,7 @@
 		34776AA71BE2BF1100400790 /* PhoneNumberKitParsingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberKitParsingTests.swift; sourceTree = "<group>"; };
 		34AA66011BDD160B00467912 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		34AA66031BDD448B00467912 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5A73DF9F1F5CCDA400826C98 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
 		C6DF6C4B1D1B09CF00259F4B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF6C911D1B120400259F4B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberKit.h; sourceTree = "<group>"; };
@@ -201,6 +206,7 @@
 				34566C991BC112C500715E6B /* RegexManager.swift */,
 				3424187F1BB705B500EE70E7 /* PhoneNumber.swift */,
 				34AA66011BDD160B00467912 /* Constants.swift */,
+				5A73DF9F1F5CCDA400826C98 /* PhoneNumberFormatter.swift */,
 				3420CF5D1BE8959F00FAE34F /* Formatter.swift */,
 				343B850A1C62A25600918E46 /* PartialFormatter.swift */,
 				343B850B1C62A25600918E46 /* TextField.swift */,
@@ -467,6 +473,7 @@
 				3422D9BA1BE6A2D500867D02 /* ParseManager.swift in Sources */,
 				34566C9A1BC112C500715E6B /* RegexManager.swift in Sources */,
 				342418801BB705B500EE70E7 /* PhoneNumber.swift in Sources */,
+				5A73DFA01F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */,
 				34AA66021BDD160B00467912 /* Constants.swift in Sources */,
 				342548F01BE7EED500FBE524 /* MetadataTypes.swift in Sources */,
 			);
@@ -490,6 +497,7 @@
 				C6B53DA71D94508400E607DD /* NSRegularExpression+Swift.swift in Sources */,
 				C6DF6C5A1D1B09DD00259F4B /* ParseManager.swift in Sources */,
 				C6DF6C5E1D1B09DD00259F4B /* PhoneNumberParser.swift in Sources */,
+				5A73DFA11F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */,
 				C6DF6C551D1B09DD00259F4B /* Formatter.swift in Sources */,
 				C6DF6C5C1D1B09DD00259F4B /* PhoneNumber.swift in Sources */,
 				C6DF6C541D1B09DD00259F4B /* Constants.swift in Sources */,
@@ -508,6 +516,7 @@
 				C6B53DA51D944F8000E607DD /* NSRegularExpression+Swift.swift in Sources */,
 				C6DF6CB81D1B159A00259F4B /* ParseManager.swift in Sources */,
 				C6DF6CBC1D1B159A00259F4B /* PhoneNumberParser.swift in Sources */,
+				5A73DFA21F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */,
 				C6DF6CB31D1B159A00259F4B /* Formatter.swift in Sources */,
 				C6DF6CBA1D1B159A00259F4B /* PhoneNumber.swift in Sources */,
 				C6DF6CB21D1B159A00259F4B /* Constants.swift in Sources */,
@@ -532,6 +541,7 @@
 				C6DF6CDA1D1B18D800259F4B /* MetadataTypes.swift in Sources */,
 				C6DF6CE01D1B18D800259F4B /* RegexManager.swift in Sources */,
 				C6DF6CD91D1B18D800259F4B /* MetadataManager.swift in Sources */,
+				5A73DFA31F5CCDA400826C98 /* PhoneNumberFormatter.swift in Sources */,
 				C6DF6CD71D1B18D800259F4B /* PartialFormatter.swift in Sources */,
 				C6DF6CD81D1B18D800259F4B /* TextField.swift in Sources */,
 			);
