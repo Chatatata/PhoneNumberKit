@@ -5,7 +5,6 @@
 //  Created by Jean-Daniel Dupas on 13/01/2017.
 //  Copyright © 2017 Xenonium. All rights reserved.
 //
-
 import Foundation
 
 open class PhoneNumberFormatter : Foundation.Formatter {
